@@ -1,0 +1,91 @@
+/*
+div.timetable {
+    position: absolute;
+    top: 20px;
+    left: -5px;
+}
+div.timetable div.active-line {
+    width: 100%;
+    height: 30px;
+    background-color: #cedbfd;
+}
+div.timetable div.line {
+    width: 100%;
+    height: 15px;
+    background-color: #e1eaff;
+}*/
+
+.content .timetable .day span.date {
+    color: #292525;
+    line-height: 3;
+    font-weight: 700;
+}
+.content .timetable .day div.ad {
+    height: 35px;
+    width: 80px;
+    background-color: rgb(117, 147,179);
+     margin-bottom: 6px; 
+    
+}
+.content .timetable .day .adline div {
+    display: inline-block;
+}
+.content .timetable .day .ad p.time {
+    color: #292525;
+    font-size: 10px;
+    margin-top: -10px;
+    padding-left: 13px;
+    background-color: #fff;
+}
+.content .timetable .day .ad p.name {
+    color: #fff;  
+    text-align: center;
+}
+form div {
+    display: inline-block;
+}
+.add_ad .date input {
+    display: inline-block;
+}
+.add_ad .date {
+    margin-top: 40px;
+}
+.add_ad .date input.datepicker {
+    width: 150px;
+}
+.add_ad .date input.time {
+    width: 70px;
+}
+input.form-control.comment {
+    width: 224%;
+}
+#startTime {
+    margin-left: 20px;
+}
+div.type p.types {
+    font-size: 19px;
+    font-family: monospace;
+}
+input.cost {
+    width: 100px;
+}
+
+span.down-icon,
+span.up-icon {
+    font-size: 30px;
+    margin-left: 68px;
+}
+a.signin {
+    color: #fff;
+    font-size: 16px;
+}
+.result {
+    margin-top: 40px;
+}
+
+.result .day,
+.result .money {
+    background-color: #e3e6fa;
+    border: 1px solid #909090;
+    height: 30px;
+}
